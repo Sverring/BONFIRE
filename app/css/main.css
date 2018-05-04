@@ -1,0 +1,293 @@
+/* colors */
+/*font size */
+/*font family */
+/* media queries */
+/* ===================================   HEADER   ============================================== */
+.header-title {
+  text-align: center;
+  color: #111111;
+  display: block;
+  font-size: 2.5rem;
+  padding: 30px 0; }
+  .header-title a {
+    color: #111111;
+    font-weight: 700; }
+  .header-title a:hover {
+    text-decoration: none;
+    color: aqua;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+
+.border-line {
+  padding: 2% 0 2% 0;
+  margin-bottom: 3%;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1; }
+
+.nav-menu {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.25rem; }
+  .nav-menu ul {
+    margin-bottom: 0; }
+    .nav-menu ul li {
+      display: inline-block;
+      padding: 0px 30px;
+      list-style: none; }
+      .nav-menu ul li a {
+        color: #111111;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
+      .nav-menu ul li a:hover {
+        color: aqua;
+        text-decoration: none; }
+      .nav-menu ul li a:visited {
+        color: Indigo; }
+      .nav-menu ul li a:active {
+        color: DarkCyan; }
+
+/* ================================== PAGE BLOCK =============================================== */
+.img-block {
+  width: 100%;
+  height: 600px;
+  background: #ddd;
+  border: 2px solid whitesmoke; }
+
+.img-block2 {
+  width: 100%;
+  height: 167.5px;
+  background: #ddd;
+  border: 1px solid whitesmoke; }
+
+.pic-1 {
+  background: url(../img/1.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.pic-2 {
+  background: url(../img/2.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.pic-3 {
+  background: url(../img/3.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.pic-4 {
+  background: url(../img/4.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* Information about product */
+.link-woman a {
+  color: #68899a; }
+
+.link-woman a:hover {
+  text-decoration: none;
+  color: red; }
+
+.link-woman a:visited {
+  color: Indigo; }
+
+.link-woman a:active {
+  color: LightCoral; }
+
+.adv ul {
+  list-style: none;
+  padding-left: 0; }
+
+.blue {
+  color: #68899a; }
+
+.adv2 {
+  padding: 15px 0; }
+  .adv2 ul {
+    padding-left: 20px; }
+
+/*  Color Size inputs  */
+.button-input {
+  font-size: 1.5rem;
+  padding-bottom: 10px; }
+
+.selection-zone {
+  padding: 7.5px; }
+
+.bottom-button1 {
+  color: white;
+  background: #111111;
+  border: 1px solid #111111;
+  width: 100%;
+  text-align: center; }
+  .bottom-button1 a {
+    padding: 5% 7.5%;
+    display: block;
+    text-decoration: none;
+    color: white; }
+  .bottom-button1 a:hover {
+    text-decoration: none;
+    color: pink; }
+
+.bottom-button2 {
+  color: #111111;
+  background: white;
+  border: 1px solid #111111;
+  width: 100%;
+  text-align: center; }
+  .bottom-button2 a {
+    padding: 5% 7.5%;
+    display: block;
+    text-decoration: none;
+    color: #111111; }
+  .bottom-button2 a:hover {
+    text-decoration: none;
+    color: #68899a; }
+
+/* body select.select_box */
+body select {
+  display: block;
+  padding: 10px 100px 10px 15px;
+  max-width: 100%;
+  height: auto !important;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat;
+  background-color: #fff;
+  color: #444444;
+  font-size: 12px;
+  line-height: 16px !important;
+  appearance: none;
+  /* this is must */
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+/* body select.select_box option */
+body select option {
+  padding: 0 4px; }
+
+/* for IE and Edge */
+select::-ms-expand {
+  display: none; }
+
+select:disabled::-ms-expand {
+  background: #f60; }
+
+.select_box option {
+  font-size: 1rem; }
+
+.select_box {
+  /* Color Size [inputs] */ }
+  .select_box option:first-child {
+    display: none; }
+
+.wrapper-buttons {
+  padding-bottom: 25px; }
+
+.clear-sel {
+  text-decoration: underline; }
+  .clear-sel a {
+    color: #111111 !important; }
+  .clear-sel a:hover {
+    color: red !important; }
+  .clear-sel a:visited {
+    color: LightPink !important; }
+  .clear-sel a:active {
+    color: Magenta !important; }
+
+.wrapper-b {
+  padding-top: 20px; }
+
+footer {
+  border-top: 1px solid #e1e1e1;
+  margin-top: 2.5%; }
+
+.footer-div {
+  padding-top: 2%;
+  padding-bottom: 3%;
+  display: block;
+  text-align: center; }
+  .footer-div .footer-company {
+    display: inline-block !important; }
+
+/*===============================  MEDIA ==================================== */
+@media (max-width: 1441px) {
+  .img-block {
+    height: 727.5px; }
+  .img-block2 {
+    height: 150px; }
+  .bottom-button1 {
+    margin-bottom: 2%; }
+  .select_box {
+    padding: 5px 140px 5px 5px; } }
+
+@media (max-width: 1025px) {
+  .img-block {
+    height: 735px; }
+  .img-block2 {
+    height: 125px; }
+  .bottom-button1 {
+    margin-bottom: 2%; } }
+
+@media (max-width: 769px) {
+  .img-block {
+    height: 800px; }
+  .img-block2 {
+    height: 100px; }
+  .nav-menu {
+    font-size: 1rem; }
+    .nav-menu li {
+      padding: 0 10px !important; }
+  .select_box {
+    padding: 5px 50px 5px 5px; }
+  .bottom-button1 {
+    margin-bottom: 2%; } }
+
+@media (max-width: 480px) {
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%; }
+    .nav-menu ul li {
+      text-align: center;
+      margin-bottom: 2px;
+      width: 100%;
+      border: 2px solid #eee;
+      background: #eee;
+      padding: 0; }
+      .nav-menu ul li a {
+        text-decoration: none;
+        display: block; }
+      .nav-menu ul li a:hover {
+        color: whitesmoke;
+        background-color: CadetBlue;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
+  .img-block {
+    height: 300px; }
+  .img-block2 {
+    height: 75px; }
+  .bottom-button1 {
+    margin-bottom: 3%; }
+    .bottom-button1 a {
+      padding: 3% 5%; }
+  .bottom-button2 a {
+    padding: 3% 5%; }
+  .select_box {
+    width: 100%;
+    margin-bottom: 2%; }
+  .clear-sel-pad {
+    margin-bottom: 3% !important; } }

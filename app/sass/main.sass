@@ -1,0 +1,338 @@
+/* colors */
+$grey: #e1e1e1
+$black: #111111
+$grey-light: #cccccc
+$anchorpoint-color: #68899a
+$text-color: #747474
+$main-bg: #ffffff
+
+/*font size */
+$main-text: 14px
+$price-text: 24px
+$title-text: 24px
+$bottom-text: 12px
+
+/*font family */
+$main-font-family: "Varela"
+
+/* media queries */
+$mobileS: "max-width: 321px";
+$mobileM: "max-width: 376px";
+$mobileL: "max-width: 480px";
+$tablet: "max-width: 769px";
+$laptop: "max-width: 1025px";
+$laptopL: "max-width: 1441px";    
+
+/* ===================================   HEADER   ============================================== */
+
+.header-title
+    text-align: center
+    color: $black
+    display: block
+    font-size: 2.5rem
+    padding: 30px 0
+    a
+        color: $black
+        font-weight: 700
+    a:hover
+        text-decoration: none
+        color: aqua
+        transition: 0.4s
+ 
+.border-line
+    padding: 2% 0 2% 0
+    margin-bottom: 3%
+    border-top: 1px solid $grey
+    border-bottom: 1px solid $grey
+    
+.nav-menu
+    display: block
+    text-align: center
+    line-height: 1
+    font-size: 1.25rem
+    ul
+        margin-bottom: 0
+        li
+            display: inline-block
+            padding: 0px 30px
+            list-style: none
+            a
+                color: $black
+                transition: .5s
+            a:hover
+                color: aqua 
+                text-decoration: none
+            a:visited
+                color: Indigo
+            a:active
+                color: DarkCyan
+            
+    
+/* ================================== PAGE BLOCK =============================================== */
+
+.img-block
+    width: 100%
+    height: 600px
+    background: #ddd
+    border: 2px solid whitesmoke
+    
+.img-block2
+    width: 100%
+    height: 167.5px
+    background: #ddd
+    border: 1px solid whitesmoke
+    
+.pic-1
+    background: url(../img/1.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    
+.pic-2
+    background: url(../img/2.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    
+.pic-3
+    background: url(../img/3.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    
+.pic-4
+    background: url(../img/4.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+/* Information about product */
+
+.link-woman
+    a
+        color: $anchorpoint-color
+    a:hover
+        text-decoration: none
+        color: red
+    a:visited
+        color: Indigo
+    a:active
+        color: LightCoral
+        
+
+.adv
+    ul
+        list-style: none
+        padding-left: 0
+.blue
+    color: #68899a
+    
+.adv2
+    padding: 15px 0
+    ul
+        padding-left: 20px
+        
+/*  Color Size inputs  */
+
+.button-input
+    font-size: 1.5rem
+    padding-bottom: 10px
+
+.selection-zone
+    padding: 7.5px
+
+//.button-padding
+//    padding-left: 0
+    
+.bottom-button1
+    color: white
+    background: $black
+    border: 1px solid $black 
+    width: 100%
+    text-align: center
+    a
+        padding: 5% 7.5%
+        display: block
+        text-decoration: none
+        color: white
+    a:hover
+        text-decoration: none
+        color: pink
+        
+    
+    
+.bottom-button2
+    
+    color: $black
+    background: white
+    border: 1px solid $black 
+    width: 100%
+    text-align: center
+    a
+        padding: 5% 7.5%
+        display: block
+        text-decoration: none
+        color: $black    
+    a:hover
+        text-decoration: none
+        color: $anchorpoint-color
+        
+    
+/* body select.select_box */ 
+body select 
+    display: block
+    padding: 10px 100px 10px 15px 
+    max-width: 100%
+    height: auto !important 
+    border: 1px solid #e3e3e3 
+    border-radius: 3px
+    background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat
+    background-color: #fff 
+    color: #444444
+    font-size: 12px 
+    line-height: 16px !important 
+    appearance: none
+    /* this is must */ 
+    -webkit-appearance: none 
+    -moz-appearance: none
+
+/* body select.select_box option */ 
+body select option  
+    padding: 0 4px 
+ 
+/* for IE and Edge */ 
+select::-ms-expand  
+    display: none
+ 
+select:disabled::-ms-expand  
+    background: #f60 
+
+.select_box
+    option
+        font-size: 1rem
+
+.select_box
+    option:first-child
+	    display: none
+
+    /* Color Size [inputs] */    
+
+.wrapper-buttons
+    padding-bottom: 25px 
+    
+.clear-sel
+    text-decoration: underline
+    a
+        color: $black !important
+    a:hover
+        color: red !important
+    a:visited
+        color: LightPink !important
+    a:active
+        color: Magenta !important
+    
+.wrapper-b
+    padding-top: 20px
+
+footer
+    border-top: 1px solid $grey
+    margin-top: 2.5%
+    
+.footer-div
+    padding-top: 2%
+    padding-bottom: 3%
+    display: block
+    text-align: center
+    .footer-company
+        display: inline-block !important
+
+/*===============================  MEDIA ==================================== */
+
+@media ($laptopL)
+    
+    .img-block
+        height: 727.5px 
+   
+    .img-block2
+        height: 150px
+    
+    .bottom-button1
+        margin-bottom: 2% 
+    
+    .select_box
+        padding: 5px 140px 5px 5px
+
+@media ($laptop)
+    
+    .img-block
+        height: 735px
+   
+    .img-block2
+        height: 125px
+        
+    .bottom-button1
+        margin-bottom: 2%
+
+@media ($tablet)
+    
+    .img-block
+        height: 800px
+   
+    .img-block2
+        height: 100px
+        
+    .nav-menu
+        font-size: 1rem
+        li
+            padding: 0 10px !important
+        
+    .select_box
+        padding: 5px 50px 5px 5px
+        
+    .bottom-button1
+        margin-bottom: 2%
+        
+@media ($mobileL)
+    .nav-menu
+        ul
+            list-style-type: none
+            margin: 0 auto
+            padding: 0
+            width: 100%
+            li
+                text-align: center
+                margin-bottom: 2px
+                width: 100%
+                border: 2px solid #eee
+                background: #eee
+                padding: 0
+                a
+                    text-decoration: none
+                    display: block
+                a:hover
+                    color: whitesmoke
+                    background-color: CadetBlue 
+                    transition: .5s
+                       
+    .img-block
+        height: 300px
+   
+    .img-block2
+        height: 75px
+        
+    .bottom-button1
+        margin-bottom: 3% 
+        a
+            padding: 3% 5%
+    
+    .bottom-button2
+        a
+            padding: 3% 5%  
+            
+    .select_box
+        width: 100%
+        margin-bottom: 2%
+    
+    .clear-sel-pad
+        margin-bottom: 3% !important 
+        
