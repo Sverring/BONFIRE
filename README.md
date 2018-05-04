@@ -1,4 +1,4 @@
-# BonFire
+# BONFIRE
 <div style='text-align:center'>
   <img src='app/img/title_wep.jpg' alt='BONFIRE'>
 </div>
@@ -14,7 +14,7 @@ On any device the site displays correctly, issues were not detected.
 
 # Technologies
 * HTML;
-* CSS, SASS, Bootstrap 4, Media queries;
+* CSS, SASS, Bootstrap 4, Slick, Media queries;
 * Gulp;
 * Adobe Photoshop.
 
