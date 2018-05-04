@@ -19,4 +19,4 @@ On any device the site displays correctly, issues were not detected.
 * Adobe Photoshop.
 
 # Example          
-![BON](app/img/BON.gif)
+![bonfire](app/img/bonfire.gif)
